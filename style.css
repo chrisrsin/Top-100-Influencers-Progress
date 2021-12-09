@@ -1,0 +1,472 @@
+body {
+    margin: 0 auto;
+}
+
+nav {
+    width: 100vw;
+    position: fixed;
+    z-index: 15;
+}
+
+nav .navbar {
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    position: relative;
+
+    background: white;
+    border-top: 15px solid white;
+    border-bottom: 15px solid white;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+nav .navbar li {
+    margin-left: 20px;
+    margin-right: 20px;
+    list-style: none;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+nav .navbar li a {
+    text-decoration: none;
+    color: black;
+}
+
+nav .navbar li a:hover {
+    color: #cbc256;
+}
+
+.fwh-slide {
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.page-home {
+    margin: 0 auto;
+    padding: 0;
+
+    background: linear-gradient(to top,  #022e22, #024122);
+}
+
+.page1 {
+    margin: 0 auto;
+    top: 40vh;
+
+    display: flex;
+    position: relative;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.page1 .home {
+    margin: 0 auto;
+    position: relative;
+    padding: 0;
+
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 7vw;
+    padding-right: 7vw;
+
+    background: white;
+}
+
+.page1 .home #group-name {
+    color: #cbc256;
+    font-size: 20px;
+
+    padding-bottom: 25px;
+}
+
+.page1 .home #title {
+    color: black;
+    font-size: 35px;
+
+    padding-bottom: 10px;
+}
+
+.page1 .home #subtitle {
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.page-problem {
+    margin: 0 auto;
+    padding: 0;
+
+    display: flex;
+    position: relative;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(to top,  #022e22, #024122);
+}
+
+.page-problem::before {
+    content: '';
+    background-image: url("https://www.csus.edu/newcsus2019-global-assets/_internal/images/comb-pattern-1.svg");
+    transform: scaleX(-1);
+    background-repeat: no-repeat;
+    background-position-x: 150px;
+    background-position-y: 78%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /*left: 150px;*/
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: 0.3;
+}
+
+.page2 {
+    margin: 0 auto;
+    padding: 0;
+    top: 35vh;
+
+    position: relative;
+}
+
+.page2 .problem {
+    margin: 0 auto;
+    padding: 0;
+    width: 45vw;
+    
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: black;
+    background: white;
+    padding: 30px;
+}
+
+.page2 .problem #title {
+    list-style: none;
+
+    font-size: 27px;
+    font-weight: 700;
+
+    border-bottom: solid black;
+    padding-bottom: 40px;
+}
+
+.page2 .problem #desc {
+    list-style: none;
+
+    font-size: 18px;
+
+    padding-top: 10px;
+}
+
+.page-solution {
+    margin: 0 auto;
+    padding: 0;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(to top,  #022e22, #024122);
+}
+
+.page3 {
+    margin: 0 auto;
+    padding: 0;
+    top: 35vh;
+
+    position: relative;
+}
+
+.page3 .solution {
+    margin: 0 auto;
+    padding: 0;
+    width: 45vw;
+    
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: black;
+    background: white;
+    padding: 30px;
+}
+
+.page3 .solution #title {
+    list-style: none;
+
+    font-size: 27px;
+    font-weight: 700;
+
+    border-bottom: solid black;
+    padding-bottom: 40px;
+}
+
+.page3 .solution #desc {
+    list-style: none;
+
+    font-size: 18px;
+
+    padding-top: 10px;
+}
+
+.page-highlights {
+    margin: 0 auto;
+    padding: 0;
+
+    display: flex;
+    position: relative;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(to top,  #022e22, #024122);
+}
+
+.page-highlights::before {
+    content: '';
+    background-image: url("https://www.csus.edu/newcsus2019-global-assets/_internal/images/comb-pattern-1.svg");
+    transform: scaleX(-1);
+    background-repeat: no-repeat;
+    background-position-x: 150px;
+    background-position-y: 78%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /*left: 150px;*/
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: 0.3;
+}
+
+.page4 {
+    margin: 0 auto;
+    padding: 0;
+    top: 45vh;
+
+}
+
+.page4 .highlights {
+    margin: 0 auto;
+    padding: 0;
+    width: 45vw;
+    position: relative;
+    top: 35vh;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: black;
+    background: white;
+    padding: 30px;
+}
+
+.page4 .highlights #title {
+    list-style: none;
+
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.page4 .highlights #desc {
+    list-style: none;
+
+    font-size: 18px;
+    border-bottom: solid black;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.page4 .highlights #fbullet {
+    padding-top: 20px;
+}
+
+.page-prototypes {
+    margin: 0 auto;
+    padding: 0;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(to top,  #022e22, #024122);
+}
+
+.page5 {
+    margin: 0 auto;
+    padding: 0;
+    top: 35vh;
+
+    position: relative;
+}
+
+.page5 p {
+    margin: 0 auto;
+    width: 45vw;
+    padding: 0;
+    font-size: 27px;
+    font-weight: 700;
+    background: white;
+    justify-content: center;
+    text-align: center;
+}
+
+.page5 .prototypes {
+    margin: 0 auto;
+    padding: 0;
+    width: 45vw;
+    
+    display: flex;
+    list-style: none;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: black;
+    padding: 30px;
+}
+
+.resize {
+    height: 50vh;
+}
+
+.page5 .prototypes li{
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.page-timeline{
+    margin: 0 auto;
+    padding: 0;
+
+    display: flex;
+    position: relative;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(to top,  #022e22, #024122);
+}
+
+.page-timeline::before {
+    content: '';
+    background-image: url("https://www.csus.edu/newcsus2019-global-assets/_internal/images/comb-pattern-1.svg");
+    transform: scaleX(-1);
+    background-repeat: no-repeat;
+    background-position-x: 150px;
+    background-position-y: 78%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    /*left: 150px;*/
+    -webkit-background-size: cover;
+    background-size: cover;
+    opacity: 0.3;
+}
+
+.page6 {
+    margin: 0 auto;
+    padding: 0;
+    top: 45vh;
+
+}
+
+.page6 .timeline {
+    margin: 0 auto;
+    padding: 0;
+    width: 45vw;
+    position: relative;
+    top: 35vh;
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: black;
+    background: white;
+    padding: 30px;
+}
+
+.page6 .timeline #title {
+    list-style: none;
+
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.page6 .timeline #desc {
+    list-style: none;
+
+    font-size: 18px;
+    border-bottom: solid black;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.page-about {
+    margin: 0 auto;
+    padding: 0;
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: linear-gradient(to top,  #022e22, #024122);
+}
+
+.page7 {
+    margin: 0 auto;
+    padding: 0;
+    top: 35vh;
+
+    position: relative;
+}
+
+.page7 .about{
+    margin: 0 auto;
+    padding: 0;
+    width: 45vw;
+    
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: black;
+    background: white;
+    padding: 30px;
+}
+
+.page7 .about #title {
+    list-style: none;
+
+    font-size: 27px;
+    font-weight: 700;
+
+    border-bottom: solid black;
+    padding-bottom: 40px;
+}
+
+.page7 .about #desc {
+    list-style: none;
+
+    font-size: 18px;
+
+    padding-top: 10px;
+}
